@@ -1,7 +1,11 @@
 import React from "react";
 
+type Props = {
+  label: string;
+};
+
 // jsx
-export default function Mycomponent(props: any) {
+export default function Mycomponent(props: Props) {
   return (
     <div>
       <hr />
